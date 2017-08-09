@@ -1,0 +1,142 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+/* Escribe tu código acá debajo */
+
+
+/*Reseteamos los valores por defecto de manera global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+/*Body de color para dar márgenes de color*/
+
+body {
+    background-color: #F78E69;
+}
+
+
+/*Clase de colores*/
+
+.color {
+    background-color: #ABE188;
+    border-top: 20px solid #F78E69;
+    border-bottom: 20px solid #F78E69;
+    padding: 40px 0;
+}
+
+/*Estilos para la clase de introducción*/
+
+.intro {
+    width: inherit;
+    height: 250px;
+    text-align: right;
+    padding: 50px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.intro p {
+    margin: 20px;
+}
+
+
+/*Sección de dibujoUno*/
+
+#dibujoUno {
+    background: url(../img/uno.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    filter: grayscale(100%);
+}
+
+
+/*Sección de AboutPandas*/
+
+#aboutPanda {
+    background-color: #ABE188;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.about {
+    background-color: #F78E69;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 1.5em;
+    width: 600px;
+}
+
+.about h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*Sección de dibujo2*/
+
+#dibujoDos {
+    background: url(../img/dos.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 330px 0;
+    filter: grayscale(100%);
+}
+
+
+/*Sección Pictures*/
+
+#allPictures {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.color h3 {
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.bordes {
+    margin: 30px;
+    border: 10px solid white;
+}
+
+
+/*Sección de dibujo3*/
+
+#dibujoTres {
+    background: url(../img/tres.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 330px 0;
+    filter: grayscale(100%);
+}
+
+
+/*Footer*/
+
+footer {
+    text-align: right;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
